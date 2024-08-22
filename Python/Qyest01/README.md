@@ -7,44 +7,16 @@
 - [ ]  **1. 주어진 문제를 해결하는 완성된 코드가 제출되었나요?**
   
   네 회문을 판별할 수 있는 코드로 보입니다 
-   
-   def palindrome(w):                    # 매개변수를 받아 회문 판별하는 함수
-  backword = ""
+   ![화면 캡처 2024-08-22 121501](https://github.com/user-attachments/assets/06ae19fe-199c-46e8-92ae-8fa974a61aa5)
 
-  for i in w:                         # 문자열 반대로 저장
-    backword = i + backword
-
-  print("뒤집힌 단어는:",backword)
-
-  if word == backword:                # 조건문으로 입력된 다어와 뒤집힌 단어가 같은지 확인
-    print("입력된 단어는 회문입니다")
-  else:
-    print("입력된 단어는 회문이 아닙니다")
-
-word = input("단어를 입력해주세요:")  # 단어를 입력받아 저장
-palindrome(word)                      # 회문을 판별할 함수 불러오기
-    
+  
 - [ ]  **2. 전체 코드에서 가장 핵심적이거나 가장 복잡하고 이해하기 어려운 부분에 작성된 
 주석 또는 doc string을 보고 해당 코드가 잘 이해되었나요?**
  
  네 주석에 나와있는 설명대로 잘 짜여진 코드로 보입니다.
  
-  
-  def palindrome(w):                    # 매개변수를 받아 회문 판별하는 함수
-  backword = ""
+  ![화면 캡처 2024-08-22 122125](https://github.com/user-attachments/assets/9e3ade23-880f-429a-89a4-a3f906c33e1f)
 
-  for i in w:                         # 문자열 반대로 저장
-    backword = i + backword
-
-  print("뒤집힌 단어는:",backword)
-
-  if word == backword:                # 조건문으로 입력된 다어와 뒤집힌 단어가 같은지 확인
-    print("입력된 단어는 회문입니다")
-  else:
-    print("입력된 단어는 회문이 아닙니다")
-
-  word = input("단어를 입력해주세요:")  # 단어를 입력받아 저장
-  palindrome(word)                      # 회문을 판별할 함수 불러오기
         
 - [ ]  **3. 에러가 난 부분을 디버깅하여 문제를 해결한 기록을 남겼거나
 새로운 시도 또는 추가 실험을 수행해봤나요?**
