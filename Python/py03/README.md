@@ -28,7 +28,7 @@
 # 회고(참고 링크 및 코드 개선)
 ```
 두번째에서 아래와 같이 printf 함수에서 f.__name__ 을 불러오지 못한 것만 해결되면 코드는 제대로 잘 동작되는 것을 확인할 수 있습니다.
+![image](https://github.com/user-attachments/assets/b3c021a3-1ba3-4a18-9f42-412bc510c786)
 
-
-
+추가적인 코드 없이 이것만으로 작동할 수 있는 이유는 say hello 가 counter 함수의 변수 f 에 assign 되면(=decorator), call 함수를 return 하면서 자동적으로 count 가 자유변수로써 저장되면서 1씩 증가하기 때문입니다. 
 ```
