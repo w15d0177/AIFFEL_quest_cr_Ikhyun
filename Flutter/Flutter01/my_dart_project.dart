@@ -56,3 +56,6 @@ void main() {
   print("flutter: Pomodoro 타이머 시작"); // 프로그램 시작 시 메시지 출력
   startPomodoroTimer(); // Pomodoro 타이머 함수 호출
 }
+
+
+이익현: 남은시간 나올때 10:1 이렇게 나오는거를 10:01 이렇게 나오게하고싶었는데 못했다.
