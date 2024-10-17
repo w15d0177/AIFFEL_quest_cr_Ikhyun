@@ -49,3 +49,4 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+##회고 에뮬이 중간에 오류나서 실행되는디 확인은 못했다
